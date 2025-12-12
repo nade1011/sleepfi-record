@@ -277,6 +277,7 @@
   }
     #jukebox {
     justify-content: space-between;
+    top: 43.59px;
   }
   .player-cover {
     width: 50px;
