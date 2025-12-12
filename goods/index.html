@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="sleepfi-recordグッズや音源のページです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/goods.css">
+    <link rel="icon" href="../favicon.ico">
+    <!--google font-->
+    <!-- League Gothic -->
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+
+    <!-- Carrois Gothic -->
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap" rel="stylesheet">
+
+    <!-- Gothic A1（ウェイト全追加） -->
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>GOODS - SleepFi Records </title>
+</head>
+<body id="goods" data-base="content" data-menu="close">
+    <header data-space="header">
+       <div data-frame="header" data-space="wrapperLR">
+            <div id="logo" data-img="logo"><h1><img src="../assets/images/logo.svg" alt="SleepFiRecord" width="217" height="86"></h1></div>
+            <nav id="header-nav">
+                <ul data-frame="nav">
+                    <li><a href="../index.html">TOP</a></li>
+                    <li><a href="../about/index.html">ABOUT</a></li>
+                    <li><a href="../artist/index.html">ARTIST</a></li>
+                    <li><a href="index.html">GOODS</a></li>
+                </ul>
+            </nav>
+                 <button id="open-btn" class="open-btn"><span class="line"></span><span class="line"></span><span class="line"></span></button>
+             <nav id="sp-nav" data-frame="sp-nav" data-status="close">
+                
+                <ul data-frame="sp-ul">
+                    <li data-frame="sp-nav-header"><div class="logo" data-img="logo">
+                    <img src="../assets/images/logo.svg" alt="SleepFiRecord" width="217" height="86">
+                </div><button id="close-btn" class="close-btn">×</button></li>
+                    <li><a href="../index.html">TOP</a></li>
+                    <li><a href="../about/index.html">ABOUT</a></li>
+                    <li><a href="../artist/index.html">ARTIST</a></li>
+                    <li><a href="index.html">GOODS</a></li>
+                    <li><p><small>&copy;2025 SleepFi Records. All rights reserved.</small></p></li>
+         
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+    <main>
+        <div id="content"  data-space="wrapperLR">
+            <section data-frame="Section" data-space="secBtm">
+                <h2>GOODS</h2>
+                <!-- ▼ Jukebox Player -->
+                <div id="jukebox" data-player="jukebox" data-img="jukesubbarImg" data-space="jukesubbarBtm" class="is-paused">
+                <div class="player-cover"><img src="../assets/images/goods/record.svg" alt="レコードの絵"></div>
+
+                <div class="player-info">
+                     <p id="track-artist" class="track-text"></p>
+                     <p id="track-title" class="track-text"></p>
+                    <div class="ticker">
+                        <div class="ticker__inner" id="tickerText">
+                        <span>Artist - Track Title ／</span>
+                        <span>Artist - Track Title ／</span>
+                        <span>Artist - Track Title ／</span>
+                        </div>
+                    </div>
+                 </div>
+
+
+                <button id="playPauseBtn" class="player-btn">►</button>
+                <audio id="audioPlayer"></audio>
+                </div>
+                <!-- ▲ Jukebox Player -->
+                
+                <div data-frame="goodsCell">
+                    <article>
+                        <div data-frame="goodsCard" data-space="goodsCard" data-audio="../assets/audio/sora_no1.mp3">
+                            <p data-img="goodsImg"><img src="../assets/images/slow_bloom.jpg" alt=" Slow Bloomジャケット写真" width="300" height="300"></p>
+                            <h3>Sora.</h3>
+                            <h3> Slow Bloom（Digital Single）</h3>
+                            <p data-textArea="cardText">空気がふわっと広がるような、チルでミニマルな1曲。 朝に合うローファイ・ビート。</p>
+                            <p>クリックで視聴 &#9850;</p>
+                            <p>価格：¥250</p>
+                            
+                        </div>
+                    </article>
+                     <article>
+                        <div data-frame="goodsCard" data-space="goodsCard" data-audio="../assets/audio/lune_no1.mp3">
+                            <p data-img="goodsImg"><img src="../assets/images/night_drift.jpg" alt="Night Driftジャケット写真" width="300" height="300"></p>
+                            <h3>Lune</h3>
+                            <h3>Night Drift（Digital EP）</h3>
+                            <p data-textArea="cardText">夜の静けさをそのまま録音したような、やわらかい4曲。 ゆっくり漂うムードが特徴のレーベル定番EP。</p>
+                            <p>クリックで視聴 &#9850;</p>
+                            <p>価格：¥600</p>
+                        </div>
+                    </article>
+                </div>
+                <div data-frame="goodsCell">
+                    <article>
+                        <div data-frame="goodsCard" data-space="goodsCard" data-audio="../assets/audio/lune_no1.mp3" >
+                            <p data-img="goodsImg"><img src="../assets/images/midnight_lines.jpg" alt="Midnight Linesジャケット写真" width="300" height="300"></p>
+                            <h3>Ame</h3>
+                            <h3>Midnight Lines（Mini Album）</h3>
+                            <p data-textArea="cardText">深夜の景色を切り取ったメロウ・サウンド。 静かに沁みる6曲入り。</p>
+                            <p>クリックで視聴 &#9850;</p>
+                            <p>価格：¥800</p>
+                        </div>
+                    </article>
+                     <article>
+                        <div data-frame="goodsCard" data-space="goodsCard" data-audio="../assets/audio/lune_no1.mp3">
+                            <p data-img="goodsImg"><img src="../assets/images/goods/compilation_goods.jpg" alt=">Sleepfi Record Compilation Vol.1のジャケット写真" width="300" height="300"></p>
+                            <h3>Various Artists</h3>
+                            <h3>Sleepfi Record Compilation Vol.1</h3>
+                            <p data-textArea="cardText">レーベル3組が参加した、入門用コンピレーション。 各アーティストの個性がまろやかに繋がる全6曲。</p>
+                            <p>クリックで視聴 &#9850;</p>
+                            <p>価格：¥500</p>
+                        </div>
+                    </article>
+                </div>
+                <div data-frame="goodsCell">
+                    <article>
+                        <div data-frame="goodsCard" data-space="goodsCard" data-audio="../assets/audio/lune_no2.mp3">
+                            <p data-img="goodsImg"><img src="../assets/images/goods/quiethour_goods.jpg" alt="“Quiet Hour”のジャケット写真" width="300" height="300"></p>
+                            <h3>Lune</h3>
+                            <h3> “Quiet Hour” （Digital Single）</h3>
+                            <p data-textArea="cardText">夜更けに寄り添う、静かで淡いローファイビート。 読書や作業に合う小品。</p>
+                            <p>クリックで視聴 &#9850;</p>
+                            <p>価格：¥250</p>
+                        </div>
+                    </article>
+                     <article>
+                        <div data-frame="goodsCard" data-space="goodsCard" data-audio="../assets/audio/sora_no2.mp3">
+                            <p data-img="goodsImg"><img src="../assets/images/goods/bluewindow_goods.jpg" alt="“Blue Window”のジャケット写真" width="300" height="300"></p>
+                            <h3>sora.</h3>
+                            <h3>“Blue Window” （Digital Single）</h3>
+                            <p data-textArea="cardText">雨粒のリズムをモチーフにした、やわらかな1曲。 透明感のあるピアノとチルビートが心地よく揺れる。</p>
+                            <p>クリックで視聴 &#9850;</p>
+                            <p>価格：¥250</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+             
+        </div>
+    </main>
+    
+    <footer data-space="footerBottom">
+        <div data-frame="footer" data-space="wrapperLR">
+        <p id="logo" data-img="logo"><img src="../assets/images/logo.svg" alt="SleepFiRecord" width="217" height="86"></p>
+        <nav id="footer-nav">
+            <ul data-frame="nav">
+                <li><a href="../index.html">TOP</a></li>
+                <li><a href="../about/index.html">ABOUT</a></li>
+                <li><a href="../artist/index.html">ARTIST</a></li>
+                <li><a href="index.html">GOODS</a></li>
+            </ul>
+        </nav>
+        <p><small>&copy;2025 SleepFi Records. All rights reserved.</small></p>
+    </div>
+    </footer>
+    <script src="../assets/js/nav.js"></script>
+    <script src="../assets/js/jukebox.js"></script>
+</body>
+</html>
