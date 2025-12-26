@@ -21,17 +21,7 @@ https://nade1011.github.io/sleepfi-record/
 - オーディオプレーヤーの再生／停止制御
 - position: sticky を用いた操作性を意識したUI
 
-## Directory
-sleepfi-record/
-├─ index.html
-├─ about/
-├─ artist/
-├─ goods/
-├─ assets/
-│  ├─ css/
-│  ├─ js/
-│  ├─ images/
-│  └─ audio/
+
 
 ## Note
 個人制作として作成したポートフォリオ用デモサイトです。
